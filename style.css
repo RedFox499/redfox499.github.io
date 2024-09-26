@@ -1,0 +1,133 @@
+body
+{
+    background-size: 2560px 950px;
+    background-position: -280px 0px;
+    background-image: url(carl-barcelo-nqUHQkuVj3c-unsplash\ 1.png);
+    background-color: black;
+}
+ul
+{
+    display: flex;
+    gap: 3.5rem;
+}
+li
+{   
+    float: left;
+    list-style: none;
+}
+.main
+{
+    display: block;
+    padding: 8px ;
+    color: white;
+    text-decoration: none;
+    transition: 0.25s;
+}
+.main:hover
+{
+    color:rgb(0, 0, 0);
+    transition: 0.25s;
+}
+.upper
+{
+    position:fixed;
+    right: 650px;
+    top: 5px;
+}
+.inst
+{
+    position: fixed;
+    top: 865px;
+    right: 260px;
+}
+.whatsapp
+{
+    position: fixed;
+    top: 865px;
+    right: 206px;
+}
+.fuckbook
+{
+    position:fixed;
+    top: 878px;
+    right: 150px;
+}
+.Logoname
+{
+    position: fixed;
+    right: 1350px;
+    font-size: 42px;
+    top: -17px;
+    color: white;
+    text-shadow: black ;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 12px;
+}
+h1
+{
+    font-size: 59px;
+    color: white;
+    text-shadow: black;
+    font-family: "Josefin Sans", sans-serif;
+    position: fixed;
+    top: 310px;
+    right: 1230px;
+}
+h2
+{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 6px;
+    font-family: "Cormorant Garamond", serif;
+    position: fixed;
+    top:410px;
+    right: 1160px;
+    text-align: center;
+    width: 460px;
+
+}
+h6
+{
+    color: white;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 16px;
+    letter-spacing: 6px;
+    position: fixed;
+    top: 480px;
+    right: 1354px;
+}
+.Button
+{
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 20px;
+    position: fixed;
+    top: 517px;
+    right: 1228px;
+    font-family: "Kanit", sans-serif;
+    font-size: 13px;
+    letter-spacing: 5px;
+    box-shadow: 0px 0px 2px 2px black;
+    transition: 0.25s;
+}
+.Button:hover
+{
+    color: white;
+    background-color: black;
+    transition: 0.25s;
+}
+.Button:active
+{
+    box-shadow: 1px 0px 2px 2px white;
+}
+.Search
+{
+    position:fixed;
+    right: 146px;
+    top: 25px;
+}
